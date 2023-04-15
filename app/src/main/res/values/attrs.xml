@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="cardCardView" format="reference|color" />
+    <attr name="colorAppBarSurface" format="color" />
+    <attr name="colorBackgroundSurface" format="color" />
+    <attr name="gnt_template_type" format="reference" />
+    <attr name="iconBackground" format="color" />
+    <attr name="tabTextColor" format="reference|color" />
+    <attr name="textColorBlack" format="reference|color" />
+    <attr name="textColorFourth" format="reference|color" />
+    <attr name="textColorHint" format="reference|color" />
+    <attr name="textColorPrimary" format="reference|color" />
+    <attr name="textColorSecondary" format="reference|color" />
+    <attr name="textColorThird" format="reference|color" />
+
+
+</resources>

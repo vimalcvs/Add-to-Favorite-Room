@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="10dp"
+    app:cardElevation="0.5dp"
     app:cardPreventCornerOverlap="true"
     app:cardUseCompatPadding="true">
 
@@ -18,26 +19,25 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:padding="10dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/hindi"
             android:layout_width="match_parent"
-            android:textSize="20sp"
-            android:padding="10dp"
+            android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:layout_height="wrap_content" />
+            android:padding="10dp"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/english"
-            android:textSize="20sp"
-            android:padding="10dp"
-            android:fontFamily="sans-serif-medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-    />
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

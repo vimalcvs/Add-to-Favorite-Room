@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.V21.Theme.Sample" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimaryDark">@color/system_window_scrim_compat</item>
+    </style>
+
+    <style name="Platform.Theme.Sample" parent="Platform.V21.Theme.Sample" />
+
+    <style name="Base.Theme.Sample" parent="Platform.Theme.Sample">
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.AppTheme.BottomSheetDialog</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialFiles.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.MaterialFiles.ActionBarPopup</item>
+        <item name="dropDownListViewStyle">@style/Widget.MaterialFiles.ListView.DropDown</item>
+
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="minTouchTargetSize">0dp</item>
+        <item name="textInputStyle">?textInputOutlinedStyle</item>
+        <item name="shapeAppearanceMediumComponent">
+            @style/ShapeAppearance.MaterialFiles.MediumComponent
+        </item>
+        <item name="buttonBarButtonStyle">
+            @style/Widget.MaterialComponents.Button.TextButton.Dialog
+        </item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="cardCardView">@color/color_card</item>
+        <item name="colorAppBarSurface">?colorPrimary</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorAccent">@color/color_icon</item>
+
+        <item name="textColorPrimary">@color/text_primary</item>
+        <item name="textColorSecondary">@color/text_secondary</item>
+        <item name="textColorThird">@color/text_third</item>
+        <item name="textColorFourth">@color/text_fourth</item>
+
+        <item name="cardViewStyle">@style/CardViewStyle.Light</item>
+
+    </style>
+
+    <style name="Theme.Sample" parent="Base.Theme.Sample" />
+
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.V29.Theme.Sample" parent="Platform.V27.Theme.Sample">
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <style name="Platform.Theme.Sample" parent="Platform.V29.Theme.Sample" />
+</resources>

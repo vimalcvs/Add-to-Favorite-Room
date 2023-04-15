@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="system_window_scrim">@color/system_window_scrim_dark</color>
+    <color name="system_window_scrim_compat">@color/system_window_scrim_dark</color>
+
+    <color name="color_card">#1E2128</color>
+    <color name="color_primary">#131415</color>
+    <color name="color_icon">#6197FF</color>
+
+    <color name="color_surface">#0D0E13</color>
+    <color name="color_background">#0D0E13</color>
+
+
+    <color name="text_primary">#FDFDFE</color>
+    <color name="text_secondary">#717A85</color>
+    <color name="text_third">#80FFFFFF</color>
+    <color name="text_fourth">#52041e54</color>
+
+</resources>
