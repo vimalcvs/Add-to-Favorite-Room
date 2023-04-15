@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
+
+
     <Button
-        android:id="@+id/favbtn"
-        android:text="favourite list"
-        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_getData"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="GET DATA" />
+
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@+id/favbtn"
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/product_list">
+        android:layout_height="match_parent" />
 
-    </androidx.recyclerview.widget.RecyclerView>
-
-</RelativeLayout>
+</LinearLayout>
